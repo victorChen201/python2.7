@@ -1,0 +1,718 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLSPHINXOPTS	doc/Makefile	/^ALLSPHINXOPTS   = -d $(BUILDDIR)\/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source$/;"	m
+AggregateDialog	pandastable/dialogs.py	/^class AggregateDialog(Frame):$/;"	c
+AnnotationOptions	pandastable/plotting.py	/^class AnnotationOptions(TkOptions):$/;"	c
+App	pandastable/preferences.py	/^class App(Frame):$/;"	c
+App	pandastable/tests.py	/^class App(Frame):$/;"	c
+AutoScrollbar	pandastable/dialogs.py	/^class AutoScrollbar(Scrollbar):$/;"	c
+BUILDDIR	doc/Makefile	/^BUILDDIR      = build$/;"	m
+BatchRenamePlugin	pandastable/plugins/rename.py	/^class BatchRenamePlugin(Plugin):$/;"	c
+ChildToolBar	pandastable/core.py	/^class ChildToolBar(ToolBar):$/;"	c
+ColumnHeader	pandastable/headers.py	/^class ColumnHeader(Canvas):$/;"	c
+CombineDialog	pandastable/dialogs.py	/^class CombineDialog(Frame):$/;"	c
+DataExplore	pandastable/app.py	/^class DataExplore(Frame):$/;"	c
+DataExploreTests	pandastable/tests.py	/^class DataExploreTests(unittest.TestCase):$/;"	c
+DragHandler	pandastable/handlers.py	/^class DragHandler(object):$/;"	c
+EasyListbox	pandastable/dialogs.py	/^class EasyListbox(Listbox):$/;"	c
+ExamplePlugin	pandastable/plugins/example.py	/^class ExamplePlugin(Plugin):$/;"	c
+I18NSPHINXOPTS	doc/Makefile	/^I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source$/;"	m
+IPythonPlugin	pandastable/plugins/ipythonview.py	/^class IPythonPlugin(Plugin):$/;"	c
+IPythonView	pandastable/plugins/ipythonview.py	/^class IPythonView(TkConsoleView, IterableIPShell):$/;"	c
+ImportDialog	pandastable/dialogs.py	/^class ImportDialog(Frame):$/;"	c
+IndexHeader	pandastable/headers.py	/^class IndexHeader(Canvas):$/;"	c
+IterableIPShell	pandastable/plugins/ipythonview.py	/^class IterableIPShell:$/;"	c
+MPL3DOptions	pandastable/plotting.py	/^class MPL3DOptions(MPLBaseOptions):$/;"	c
+MPLBaseOptions	pandastable/plotting.py	/^class MPLBaseOptions(TkOptions):$/;"	c
+MultipleValDialog	pandastable/dialogs.py	/^class MultipleValDialog(Dialog):$/;"	c
+PAPER	doc/Makefile	/^PAPER         =$/;"	m
+PAPEROPT_a4	doc/Makefile	/^PAPEROPT_a4     = -D latex_paper_size=a4$/;"	m
+PAPEROPT_letter	doc/Makefile	/^PAPEROPT_letter = -D latex_paper_size=letter$/;"	m
+PlotLayoutOptions	pandastable/plotting.py	/^class PlotLayoutOptions(TkOptions):$/;"	c
+PlotViewer	pandastable/plotting.py	/^class PlotViewer(Frame):$/;"	c
+Plugin	pandastable/plugin.py	/^class Plugin(object):$/;"	c
+Preferences	pandastable/prefs.py	/^class Preferences:$/;"	c
+Prefs	pandastable/preferences.py	/^class Prefs():$/;"	c
+ProgressDialog	pandastable/dialogs.py	/^class ProgressDialog(Toplevel):$/;"	c
+RowHeader	pandastable/headers.py	/^class RowHeader(Canvas):$/;"	c
+SCRATCH	pandastable/util.py	/^SCRATCH = None$/;"	v
+SPHINXBUILD	doc/Makefile	/^SPHINXBUILD   = sphinx-build$/;"	m
+SPHINXOPTS	doc/Makefile	/^SPHINXOPTS    =$/;"	m
+SeabornPlugin	pandastable/plugins/seabornplots.py	/^class SeabornPlugin(Plugin):$/;"	c
+SimpleEditor	pandastable/dialogs.py	/^class SimpleEditor(Frame):$/;"	c
+StatsViewer	pandastable/stats.py	/^class StatsViewer(Frame):$/;"	c
+Table	pandastable/core.py	/^class Table(Canvas):$/;"	c
+TableModel	pandastable/data.py	/^class TableModel(object):$/;"	c
+TableTests	pandastable/tests.py	/^class TableTests(unittest.TestCase):$/;"	c
+TestApp	pandastable/app.py	/^class TestApp(Frame):$/;"	c
+TkConsoleView	pandastable/plugins/ipythonview.py	/^class TkConsoleView(Text):$/;"	c
+TkOptions	pandastable/plotting.py	/^class TkOptions(object):$/;"	c
+ToolBar	pandastable/core.py	/^class ToolBar(Frame):$/;"	c
+ToolTip	pandastable/dialogs.py	/^class ToolTip(object):$/;"	c
+VerticalScrolledFrame	pandastable/dialogs.py	/^class VerticalScrolledFrame(Frame):$/;"	c
+__del__	pandastable/prefs.py	/^    def __del__(self):$/;"	m	class:Preferences	file:
+__init__	pandastable/app.py	/^    def __init__(self, parent=None):$/;"	m	class:TestApp
+__init__	pandastable/app.py	/^    def __init__(self, parent=None, data=None, projfile=None, msgpack=None):$/;"	m	class:DataExplore
+__init__	pandastable/core.py	/^    def __init__(self, parent=None, model=None, dataframe=None,$/;"	m	class:Table
+__init__	pandastable/core.py	/^    def __init__(self, parent=None, parentapp=None):$/;"	m	class:ChildToolBar
+__init__	pandastable/core.py	/^    def __init__(self, parent=None, parentapp=None):$/;"	m	class:ToolBar
+__init__	pandastable/core.py	/^    def __init__(self, parent=None, parentapp=None):$/;"	m	class:statusBar
+__init__	pandastable/data.py	/^    def __init__(self, dataframe=None, rows=20, columns=5):$/;"	m	class:TableModel
+__init__	pandastable/dialogs.py	/^    def __init__(self):$/;"	m	class:ProgressDialog
+__init__	pandastable/dialogs.py	/^    def __init__(self, parent, height=None, width=None, *args, **kw):$/;"	m	class:VerticalScrolledFrame
+__init__	pandastable/dialogs.py	/^    def __init__(self, parent, title=None, initialvalues=None, labels=None,$/;"	m	class:MultipleValDialog
+__init__	pandastable/dialogs.py	/^    def __init__(self, parent, width, height, yscrollcommand, listItemSelected):$/;"	m	class:EasyListbox
+__init__	pandastable/dialogs.py	/^    def __init__(self, parent=None, df1=None, df2=None):$/;"	m	class:CombineDialog
+__init__	pandastable/dialogs.py	/^    def __init__(self, parent=None, df=None):$/;"	m	class:AggregateDialog
+__init__	pandastable/dialogs.py	/^    def __init__(self, parent=None, filename=None):$/;"	m	class:ImportDialog
+__init__	pandastable/dialogs.py	/^    def __init__(self, parent=None, width=100, height=40, font=None):$/;"	m	class:SimpleEditor
+__init__	pandastable/dialogs.py	/^    def __init__(self, widget):$/;"	m	class:ToolTip
+__init__	pandastable/handlers.py	/^    def __init__(self, parent, figure=None):$/;"	m	class:DragHandler
+__init__	pandastable/headers.py	/^    def __init__(self, parent=None, table=None):$/;"	m	class:ColumnHeader
+__init__	pandastable/headers.py	/^    def __init__(self, parent=None, table=None, width=40):$/;"	m	class:RowHeader
+__init__	pandastable/headers.py	/^    def __init__(self, parent=None, table=None, width=40, height=20):$/;"	m	class:IndexHeader
+__init__	pandastable/plotting.py	/^    def __init__(self, parent, plotframe):$/;"	m	class:animator
+__init__	pandastable/plotting.py	/^    def __init__(self, parent=None):$/;"	m	class:AnnotationOptions
+__init__	pandastable/plotting.py	/^    def __init__(self, parent=None):$/;"	m	class:MPL3DOptions
+__init__	pandastable/plotting.py	/^    def __init__(self, parent=None):$/;"	m	class:MPLBaseOptions
+__init__	pandastable/plotting.py	/^    def __init__(self, parent=None):$/;"	m	class:PlotLayoutOptions
+__init__	pandastable/plotting.py	/^    def __init__(self, parent=None):$/;"	m	class:TkOptions
+__init__	pandastable/plotting.py	/^    def __init__(self, table, parent=None, layout='horizontal'):$/;"	m	class:PlotViewer
+__init__	pandastable/plugin.py	/^    def __init__(self, parent=None):$/;"	m	class:Plugin
+__init__	pandastable/plugins/ipythonview.py	/^    def __init__(self):$/;"	m	class:IPythonPlugin
+__init__	pandastable/plugins/ipythonview.py	/^    def __init__(self,argv=None,user_ns=None,user_global_ns=None,$/;"	m	class:IterableIPShell
+__init__	pandastable/plugins/ipythonview.py	/^    def __init__(self,root):$/;"	m	class:TkConsoleView
+__init__	pandastable/plugins/ipythonview.py	/^    def __init__(self,root,banner=None):$/;"	m	class:IPythonView
+__init__	pandastable/plugins/rename.py	/^    def __init__(self):$/;"	m	class:BatchRenamePlugin
+__init__	pandastable/plugins/seabornplots.py	/^    def __init__(self):$/;"	m	class:SeabornPlugin
+__init__	pandastable/preferences.py	/^    def __init__(self, parent=None):$/;"	m	class:App
+__init__	pandastable/preferences.py	/^    def __init__(self, path= '.pandastable', opts={}):$/;"	m	class:Prefs
+__init__	pandastable/prefs.py	/^    def __init__(self,program,defaults):$/;"	m	class:Preferences
+__init__	pandastable/stats.py	/^    def __init__(self, table, parent=None):$/;"	m	class:StatsViewer
+__init__	pandastable/tests.py	/^    def __init__(self, parent=None):$/;"	m	class:App
+__init__	pandastable/tests.py	/^    def __init__(self, root):$/;"	m	class:clickThread
+__repr__	pandastable/data.py	/^    def __repr__(self):$/;"	m	class:TableModel	file:
+__repr__	pandastable/plugin.py	/^    def __repr__(self):$/;"	m	class:Plugin	file:
+__update_namespace	pandastable/plugins/ipythonview.py	/^    def __update_namespace(self):$/;"	m	class:IterableIPShell	file:
+__version__	pandastable/__init__.py	/^__version__ = '0.7.3'$/;"	v
+_aboutWindow	pandastable/plugin.py	/^    def _aboutWindow(self):$/;"	m	class:Plugin
+_call	pandastable/app.py	/^    def _call(self, func):$/;"	m	class:DataExplore
+_callFunction	pandastable/core.py	/^    def _callFunction(self, df, funcname):$/;"	m	class:Table
+_checkNumeric	pandastable/plotting.py	/^    def _checkNumeric(self, df):$/;"	m	class:PlotViewer
+_checkNumeric	pandastable/stats.py	/^    def _checkNumeric(self, df):$/;"	m	class:StatsViewer
+_commonPrefix	pandastable/plugins/ipythonview.py	/^          def _commonPrefix(str1, str2):$/;"	f	function:IterableIPShell.complete
+_configure_canvas	pandastable/dialogs.py	/^        def _configure_canvas(event):$/;"	f	function:VerticalScrolledFrame.__init__
+_configure_interior	pandastable/dialogs.py	/^        def _configure_interior(event):$/;"	f	function:VerticalScrolledFrame.__init__
+_createMenuBar	pandastable/plugins/example.py	/^    def _createMenuBar(self):$/;"	m	class:ExamplePlugin
+_doFrame	pandastable/plugin.py	/^    def _doFrame(self):$/;"	m	class:Plugin
+_doFrame	pandastable/plugins/example.py	/^    def _doFrame(self):$/;"	m	class:ExamplePlugin
+_doimport	pandastable/stats.py	/^    def _doimport(self):$/;"	m	class:StatsViewer
+_doplot	pandastable/plotting.py	/^    def _doplot(self, data, ax, kind, subplots, errorbars, useindex, bw, kwargs):$/;"	m	class:PlotViewer
+_eval	pandastable/core.py	/^    def _eval(self, df, ex):$/;"	m	class:Table
+_getHistory	pandastable/plugins/ipythonview.py	/^    def _getHistory(self):$/;"	m	class:IterableIPShell
+_getmethods	pandastable/plugin.py	/^    def _getmethods(self):$/;"	m	class:Plugin
+_importSeaborn	pandastable/plugins/seabornplots.py	/^    def _importSeaborn(self):$/;"	m	class:SeabornPlugin
+_initFigure	pandastable/plotting.py	/^    def _initFigure(self):$/;"	m	class:PlotViewer
+_instances	pandastable/plugin.py	/^_instances = {}$/;"	v
+_plot	pandastable/plugins/seabornplots.py	/^    def _plot(self):$/;"	m	class:SeabornPlugin
+_plotWidgets	pandastable/plugins/seabornplots.py	/^    def _plotWidgets(self, parent, callback=None):$/;"	m	class:SeabornPlugin
+_processLine	pandastable/plugins/ipythonview.py	/^    def _processLine(self):$/;"	m	class:IPythonView
+_setBindings	pandastable/plugins/ipythonview.py	/^    def _setBindings(self):$/;"	m	class:TkConsoleView
+a	pandastable/preferences.py	/^    a=App()$/;"	v	class:App
+about	pandastable/app.py	/^    def about(self):$/;"	m	class:DataExplore
+about	pandastable/plugins/example.py	/^    def about(self):$/;"	m	class:ExamplePlugin
+about	pandastable/plugins/seabornplots.py	/^    def about(self):$/;"	m	class:SeabornPlugin
+accept	pandastable/images.py	/^def accept():$/;"	f
+add	pandastable/images.py	/^def add():$/;"	f
+addArrow	pandastable/plotting.py	/^    def addArrow(self, kwds=None, key=None):$/;"	m	class:AnnotationOptions
+addButton	pandastable/dialogs.py	/^def addButton(frame, name, callback, img=None, tooltip=None,$/;"	f
+addColumn	pandastable/core.py	/^    def addColumn(self, newname=None):$/;"	m	class:Table
+addColumn	pandastable/data.py	/^    def addColumn(self, colname=None, dtype=None, data=None):$/;"	m	class:TableModel
+addFigure	pandastable/plotting.py	/^def addFigure(parent, figure=None, resize_callback=None):$/;"	f
+addFolder	pandastable/plugins/rename.py	/^    def addFolder(self,path=None):$/;"	m	class:BatchRenamePlugin
+addListBox	pandastable/dialogs.py	/^def addListBox(parent, values=[], width=10):$/;"	f
+addObject	pandastable/plotting.py	/^    def addObject(self):$/;"	m	class:AnnotationOptions
+addPlot	pandastable/app.py	/^    def addPlot(self, ):$/;"	m	class:DataExplore
+addRow	pandastable/core.py	/^    def addRow(self):$/;"	m	class:Table
+addRow	pandastable/data.py	/^    def addRow(self, rowindex):$/;"	m	class:TableModel
+addRows	pandastable/core.py	/^    def addRows(self, num=None):$/;"	m	class:Table
+addSheet	pandastable/app.py	/^    def addSheet(self, sheetname=None, df=None, meta=None, select=False):$/;"	m	class:DataExplore
+addTextBox	pandastable/plotting.py	/^    def addTextBox(self, kwds=None, key=None):$/;"	m	class:AnnotationOptions
+addWidgets	pandastable/plotting.py	/^    def addWidgets(self):$/;"	m	class:AnnotationOptions
+add_col	pandastable/images.py	/^def add_col():$/;"	f
+add_commands	pandastable/core.py	/^        def add_commands(fieldtype):$/;"	f	function:Table.popupMenu
+add_defaultcommands	pandastable/core.py	/^            def add_defaultcommands():$/;"	f	function:Table.popupMenu.popupFocusOut
+add_row	pandastable/images.py	/^def add_row():$/;"	f
+addcolname	pandastable/core.py	/^        def addcolname(evt):$/;"	f	function:Table.evalBar
+adjustColorMap	pandastable/util.py	/^def adjustColorMap(cmap, minval=0.0, maxval=1.0, n=100):$/;"	f
+adjustColumnWidths	pandastable/core.py	/^    def adjustColumnWidths(self):$/;"	m	class:Table
+aggregate	pandastable/core.py	/^    def aggregate(self):$/;"	m	class:Table
+aggregate	pandastable/images.py	/^def aggregate():$/;"	f
+animate	pandastable/plotting.py	/^    def animate(self):$/;"	m	class:animator
+animator	pandastable/plotting.py	/^class animator(Frame):$/;"	c
+ansi_colors	pandastable/plugins/ipythonview.py	/^ansi_colors =  {'0;30': 'Black',$/;"	v
+apply	pandastable/core.py	/^        def apply():$/;"	f	function:Table.functionsBar
+apply	pandastable/dialogs.py	/^    def apply(self):$/;"	m	class:AggregateDialog
+apply	pandastable/dialogs.py	/^    def apply(self):$/;"	m	class:CombineDialog
+apply	pandastable/dialogs.py	/^    def apply(self):$/;"	m	class:MultipleValDialog
+apply	pandastable/plotting.py	/^    def apply(self):$/;"	m	class:TkOptions
+applyColumnWise	pandastable/core.py	/^    def applyColumnWise(self, evt=None):$/;"	m	class:Table
+applyFunction	pandastable/core.py	/^    def applyFunction(self, evt=None):$/;"	m	class:Table
+applyOptions	pandastable/plotting.py	/^    def applyOptions(self):$/;"	m	class:MPLBaseOptions
+applyOptions	pandastable/plotting.py	/^    def applyOptions(self):$/;"	m	class:TkOptions
+applyOptions	pandastable/plugins/seabornplots.py	/^    def applyOptions(self):$/;"	m	class:SeabornPlugin
+applyPlotoptions	pandastable/plotting.py	/^    def applyPlotoptions(self):$/;"	m	class:PlotViewer
+applyPrefs	pandastable/core.py	/^    def applyPrefs(self):$/;"	m	class:Table
+applyStringMethod	pandastable/core.py	/^    def applyStringMethod(self):$/;"	m	class:Table
+author	setup.py	/^    author = 'Damien Farrell',$/;"	v
+author_email	setup.py	/^    author_email = 'farrell.damien[at]gmail.com',$/;"	v
+autoAddColumns	pandastable/core.py	/^    def autoAddColumns(self, numcols=None):$/;"	m	class:Table
+autoAddRows	pandastable/data.py	/^    def autoAddRows(self, num):$/;"	m	class:TableModel
+autoResizeColumns	pandastable/core.py	/^    def autoResizeColumns(self):$/;"	m	class:Table
+autoscale	pandastable/plotting.py	/^    def autoscale(self):$/;"	m	class:PlotViewer
+bar3D	pandastable/plotting.py	/^    def bar3D(self, data, ax, kwds):$/;"	m	class:PlotViewer
+base	freeze.py	/^    base = "Win32GUI"$/;"	v
+base	freeze.py	/^base = None$/;"	v
+body	pandastable/dialogs.py	/^    def body(self, master):$/;"	m	class:MultipleValDialog
+bring_to_foreground	pandastable/app.py	/^    def bring_to_foreground(self, set_focus=False):$/;"	m	class:DataExplore
+build_exe_options	freeze.py	/^build_exe_options = {"packages": ["os","numpy","matplotlib","pandas",$/;"	v
+button_press_event	pandastable/handlers.py	/^    def button_press_event(self, event):$/;"	m	class:DragHandler
+calculate	pandastable/images.py	/^def calculate():$/;"	f
+capabilities	pandastable/plugin.py	/^    capabilities = []$/;"	v	class:Plugin
+capabilities	pandastable/plugins/example.py	/^    capabilities = [] # ['gui','uses_sidepane']$/;"	v	class:ExamplePlugin
+capabilities	pandastable/plugins/ipythonview.py	/^    capabilities = ['gui','uses_sidepane']$/;"	v	class:IPythonPlugin
+capabilities	pandastable/plugins/rename.py	/^    capabilities = ['gui']$/;"	v	class:BatchRenamePlugin
+capabilities	pandastable/plugins/seabornplots.py	/^    capabilities = ['gui','uses_sidepane']$/;"	v	class:SeabornPlugin
+changeLine	pandastable/plugins/ipythonview.py	/^    def changeLine(self, text):$/;"	m	class:TkConsoleView
+checkDataEntry	pandastable/core.py	/^    def checkDataEntry(self,event=None):$/;"	m	class:Table
+checkDict	pandastable/util.py	/^def checkDict(d):$/;"	f
+checkName	pandastable/app.py	/^        def checkName(name):$/;"	f	function:DataExplore.addSheet
+checkOS	pandastable/core.py	/^    def checkOS(cls):$/;"	m	class:Table
+check_multiindex	pandastable/util.py	/^def check_multiindex(index):$/;"	f
+classifiers	setup.py	/^    classifiers = ['Operating System :: OS Independent',$/;"	v
+cleanData	pandastable/core.py	/^    def cleanData(self):$/;"	m	class:Table
+clear	pandastable/core.py	/^        def clear():$/;"	f	function:Table.evalBar
+clear	pandastable/dialogs.py	/^    def clear(self):$/;"	m	class:EasyListbox
+clear	pandastable/plotting.py	/^    def clear(self):$/;"	m	class:AnnotationOptions
+clear	pandastable/plotting.py	/^    def clear(self):$/;"	m	class:PlotViewer
+clear	pandastable/plugins/rename.py	/^    def clear(self):$/;"	m	class:BatchRenamePlugin
+clear	pandastable/plugins/seabornplots.py	/^    def clear(self):$/;"	m	class:SeabornPlugin
+clearData	pandastable/core.py	/^    def clearData(self, evt=None):$/;"	m	class:Table
+clearSelected	pandastable/core.py	/^    def clearSelected(self):$/;"	m	class:Table
+clearSelected	pandastable/headers.py	/^    def clearSelected(self):$/;"	m	class:RowHeader
+clearTable	pandastable/core.py	/^    def clearTable(self):$/;"	m	class:Table
+clickThread	pandastable/tests.py	/^class clickThread(threading.Thread):$/;"	c
+closeChildTable	pandastable/core.py	/^    def closeChildTable(self):$/;"	m	class:Table
+closeProject	pandastable/app.py	/^    def closeProject(self):$/;"	m	class:DataExplore
+close_prefsdialog	pandastable/core.py	/^        def close_prefsdialog():$/;"	f	function:Table.showPrefs
+colormaps	pandastable/plotting.py	/^colormaps = sorted(m for m in plt.cm.datad if not m.endswith("_r"))$/;"	v
+complete	pandastable/plugins/ipythonview.py	/^    def complete(self, line):$/;"	m	class:IterableIPShell
+concat	pandastable/app.py	/^    def concat(self):$/;"	m	class:DataExplore
+connect	pandastable/handlers.py	/^    def connect(self):$/;"	m	class:DragHandler
+constructRegex	pandastable/plugins/rename.py	/^def constructRegex(inputstr):$/;"	f
+contourData	pandastable/plotting.py	/^    def contourData(self, data):$/;"	m	class:PlotViewer
+convertColumnNames	pandastable/core.py	/^    def convertColumnNames(self, s='_'):$/;"	m	class:Table
+convertDates	pandastable/core.py	/^    def convertDates(self):$/;"	m	class:Table
+convertNumeric	pandastable/core.py	/^    def convertNumeric(self):$/;"	m	class:Table
+copy	pandastable/core.py	/^    def copy(self, rows, cols=None):$/;"	m	class:Table
+copy	pandastable/images.py	/^def copy():$/;"	f
+copyDependentFiles	freeze.py	/^                          copyDependentFiles = True,$/;"	v
+copyIndex	pandastable/core.py	/^    def copyIndex(self):$/;"	m	class:Table
+copyIndex	pandastable/data.py	/^    def copyIndex(self):$/;"	m	class:TableModel
+copySheet	pandastable/app.py	/^    def copySheet(self, newname=None):$/;"	m	class:DataExplore
+copyTable	pandastable/app.py	/^    def copyTable(self, subtable=False):$/;"	m	class:DataExplore
+copyTable	pandastable/core.py	/^    def copyTable(self, event=None):$/;"	m	class:Table
+copyright	doc/source/conf.py	/^copyright = u'2014-, Damien Farrell'$/;"	v
+corrMatrix	pandastable/core.py	/^    def corrMatrix(self):$/;"	m	class:Table
+createCategorical	pandastable/core.py	/^    def createCategorical(self):$/;"	m	class:Table
+createChildTable	pandastable/core.py	/^    def createChildTable(self, df, title=None, index=False, out=False):$/;"	m	class:Table
+createConfig	pandastable/preferences.py	/^    def createConfig(self, opts={}, conffile='default.conf'):$/;"	m	class:Prefs
+createConfigParserfromOptions	pandastable/preferences.py	/^def createConfigParserfromOptions(opts, section):$/;"	f
+createMenuBar	pandastable/app.py	/^    def createMenuBar(self):$/;"	m	class:DataExplore
+createPulldown	pandastable/app.py	/^    def createPulldown(self,menu,dict):$/;"	m	class:DataExplore
+createSubMenu	pandastable/core.py	/^        def createSubMenu(parent, label, commands):$/;"	f	function:Table.popupMenu
+createToolTip	pandastable/dialogs.py	/^    def createToolTip(self, widget, text):$/;"	m	class:ToolTip
+createWidgets	pandastable/dialogs.py	/^    def createWidgets(self, f):$/;"	m	class:AggregateDialog
+cross	pandastable/images.py	/^def cross():$/;"	f
+defaultfont	pandastable/plotting.py	/^    defaultfont = 'monospace'$/;"	v	class:MPL3DOptions
+defaultfont	pandastable/plotting.py	/^    defaultfont = 'monospace'$/;"	v	class:MPLBaseOptions
+del_col	pandastable/images.py	/^def del_col():$/;"	f
+del_row	pandastable/images.py	/^def del_row():$/;"	f
+delete	pandastable/images.py	/^def delete():$/;"	f
+delete	pandastable/prefs.py	/^    def delete(self,key):$/;"	m	class:Preferences
+deleteCells	pandastable/core.py	/^    def deleteCells(self, rows, cols, answer=None):$/;"	m	class:Table
+deleteCells	pandastable/data.py	/^    def deleteCells(self, rows, cols):$/;"	m	class:TableModel
+deleteColumn	pandastable/core.py	/^    def deleteColumn(self):$/;"	m	class:Table
+deleteColumn	pandastable/data.py	/^    def deleteColumn(self, colindex):$/;"	m	class:TableModel
+deleteColumns	pandastable/data.py	/^    def deleteColumns(self, cols=None):$/;"	m	class:TableModel
+deleteRow	pandastable/core.py	/^    def deleteRow(self):$/;"	m	class:Table
+deleteRow	pandastable/data.py	/^    def deleteRow(self, rowindex=None, update=True):$/;"	m	class:TableModel
+deleteRows	pandastable/data.py	/^    def deleteRows(self, rowlist=None):$/;"	m	class:TableModel
+deleteSheet	pandastable/app.py	/^    def deleteSheet(self, ask=False):$/;"	m	class:DataExplore
+deletewin	pandastable/stats.py	/^            def deletewin():$/;"	f	function:StatsViewer.summary
+describe	pandastable/app.py	/^    def describe(self):$/;"	m	class:DataExplore
+describe	pandastable/core.py	/^    def describe(self):$/;"	m	class:Table
+describe_class	pandastable/plugin.py	/^def describe_class(obj):$/;"	f
+describe_func	pandastable/plugin.py	/^def describe_func(obj, method=False):$/;"	f
+description	freeze.py	/^	description = "Data analysis and plotter",$/;"	v
+description	setup.py	/^    description = 'Library for embedding tables in Tkinter using pandas DataFrames',$/;"	v
+dialogFromOptions	pandastable/dialogs.py	/^def dialogFromOptions(parent, opts, groups=None, callback=None,$/;"	f
+disconnect	pandastable/handlers.py	/^    def disconnect(self):$/;"	m	class:DragHandler
+discoverPlugins	pandastable/app.py	/^    def discoverPlugins(self):$/;"	m	class:DataExplore
+doBindings	pandastable/core.py	/^    def doBindings(self):$/;"	m	class:Table
+doCombine	pandastable/core.py	/^    def doCombine(self):$/;"	m	class:Table
+doExport	pandastable/core.py	/^    def doExport(self, filename=None):$/;"	m	class:Table
+doFindReplace	pandastable/plugins/rename.py	/^def doFindReplace(files=None, wildcard=None, find='', replace='', rename=False):$/;"	f
+doFit	pandastable/stats.py	/^    def doFit(self):$/;"	m	class:StatsViewer
+doGUI	pandastable/plotting.py	/^    def doGUI(self):$/;"	m	class:animator
+doGUI	pandastable/plugins/rename.py	/^    def doGUI(self):$/;"	m	class:BatchRenamePlugin
+doImport	pandastable/dialogs.py	/^    def doImport(self):$/;"	m	class:ImportDialog
+doRename	pandastable/plugins/rename.py	/^def doRename(files=None, wildcard=None, pattern='', replacement='', rename=False):$/;"	f
+doSaveProject	pandastable/app.py	/^    def doSaveProject(self, filename):$/;"	m	class:DataExplore
+dopreview	pandastable/plugins/rename.py	/^    def dopreview(self):$/;"	m	class:BatchRenamePlugin
+drawCellEntry	pandastable/core.py	/^    def drawCellEntry(self, row, col, text=None):$/;"	m	class:Table
+drawGrid	pandastable/core.py	/^    def drawGrid(self, startrow, endrow):$/;"	m	class:Table
+drawMultipleCells	pandastable/core.py	/^    def drawMultipleCells(self):$/;"	m	class:Table
+drawMultipleCols	pandastable/core.py	/^    def drawMultipleCols(self):$/;"	m	class:Table
+drawMultipleRows	pandastable/core.py	/^    def drawMultipleRows(self, rowlist):$/;"	m	class:Table
+drawRect	pandastable/core.py	/^    def drawRect(self, row, col, color=None, tag=None, delete=1):$/;"	m	class:Table
+drawRect	pandastable/headers.py	/^    def drawRect(self, row=None, tag=None, color=None, outline=None, delete=1):$/;"	m	class:RowHeader
+drawRect	pandastable/headers.py	/^    def drawRect(self,col, tag=None, color=None, outline=None, delete=1):$/;"	m	class:ColumnHeader
+drawRowHeader	pandastable/core.py	/^    def drawRowHeader(self):$/;"	m	class:Table
+drawSelectedCol	pandastable/core.py	/^    def drawSelectedCol(self, col=None, delete=1):$/;"	m	class:Table
+drawSelectedRect	pandastable/core.py	/^    def drawSelectedRect(self, row, col, color=None):$/;"	m	class:Table
+drawSelectedRow	pandastable/core.py	/^    def drawSelectedRow(self):$/;"	m	class:Table
+drawSelectedRows	pandastable/headers.py	/^    def drawSelectedRows(self, rows=None):$/;"	m	class:RowHeader
+drawSelectionRect	pandastable/handlers.py	/^    def drawSelectionRect(self):$/;"	m	class:DragHandler
+drawText	pandastable/core.py	/^    def drawText(self, row, col, celltxt, align=None):$/;"	m	class:Table
+draw_resize_symbol	pandastable/headers.py	/^    def draw_resize_symbol(self, col):$/;"	m	class:ColumnHeader
+editSheetDescription	pandastable/app.py	/^    def editSheetDescription(self):$/;"	m	class:DataExplore
+end	pandastable/images.py	/^def end():$/;"	f
+enter	pandastable/dialogs.py	/^        def enter(event):$/;"	f	function:ToolTip.createToolTip
+entry_points	setup.py	/^    entry_points = { 'gui_scripts': [$/;"	v
+evalBar	pandastable/core.py	/^    def evalBar(self, evt=None):$/;"	m	class:Table
+evalFunction	pandastable/core.py	/^    def evalFunction(self, evt=None):$/;"	m	class:Table
+evaluate	pandastable/data.py	/^        def evaluate(l):$/;"	f	function:TableModel.getColumns
+excel	pandastable/images.py	/^def excel():$/;"	f
+exclude_patterns	doc/source/conf.py	/^exclude_patterns = []$/;"	v
+executables	freeze.py	/^    executables = executables)$/;"	v
+executables	freeze.py	/^executables = [Executable("main.py", base=base,$/;"	v
+execute	pandastable/plugins/ipythonview.py	/^    def execute(self):$/;"	m	class:IterableIPShell
+execute	pandastable/plugins/rename.py	/^    def execute(self):$/;"	m	class:BatchRenamePlugin
+extensions	doc/source/conf.py	/^extensions = [$/;"	v
+fileRename	pandastable/app.py	/^    def fileRename(self):$/;"	m	class:DataExplore
+fillAcross	pandastable/core.py	/^    def fillAcross(self, collist, rowlist):$/;"	m	class:Table
+fillColumn	pandastable/core.py	/^    def fillColumn(self):$/;"	m	class:Table
+fillDown	pandastable/core.py	/^    def fillDown(self, rowlist, collist):$/;"	m	class:Table
+filterby	pandastable/data.py	/^    def filterby(self):$/;"	m	class:TableModel
+filtering	pandastable/images.py	/^def filtering():$/;"	f
+find_plugins	pandastable/plugin.py	/^def find_plugins():$/;"	f
+fit	pandastable/images.py	/^def fit():$/;"	f
+flattenIndex	pandastable/core.py	/^    def flattenIndex(self):$/;"	m	class:Table
+font	pandastable/images.py	/^def font():$/;"	f
+func	pandastable/app.py	/^            def func(p, **kwargs):$/;"	f	function:DataExplore.updatePluginMenu
+func	pandastable/app.py	/^        def func(label):$/;"	f	function:DataExplore.addPlot
+function	pandastable/images.py	/^def function():$/;"	f
+functionsBar	pandastable/core.py	/^    def functionsBar(self, evt=None):$/;"	m	class:Table
+generatePrompt	pandastable/plugins/ipythonview.py	/^    def generatePrompt(self, is_continuation):$/;"	m	class:IterableIPShell
+get	pandastable/prefs.py	/^    def get(self,key):$/;"	m	class:Preferences
+getAttributes	pandastable/util.py	/^def getAttributes(obj):$/;"	f
+getBestGeometry	pandastable/app.py	/^    def getBestGeometry(self):$/;"	m	class:DataExplore
+getButton	pandastable/tests.py	/^    def getButton(self, root):$/;"	m	class:clickThread
+getCanvasPos	pandastable/core.py	/^    def getCanvasPos(self, row, col):$/;"	m	class:Table
+getCellCoords	pandastable/core.py	/^    def getCellCoords(self, row, col):$/;"	m	class:Table
+getColPosition	pandastable/core.py	/^    def getColPosition(self, x):$/;"	m	class:Table
+getColumnCount	pandastable/data.py	/^    def getColumnCount(self):$/;"	m	class:TableModel
+getColumnData	pandastable/data.py	/^    def getColumnData(self, columnIndex=None, columnName=None,$/;"	m	class:TableModel
+getColumnName	pandastable/data.py	/^    def getColumnName(self, columnIndex):$/;"	m	class:TableModel
+getColumnType	pandastable/data.py	/^    def getColumnType(self, columnIndex):$/;"	m	class:TableModel
+getColumns	pandastable/data.py	/^    def getColumns(self, colnames, filters=None, allowempty=True):$/;"	m	class:TableModel
+getCurrentLine	pandastable/plugins/ipythonview.py	/^    def getCurrentLine(self):$/;"	m	class:TkConsoleView
+getCurrentSheet	pandastable/app.py	/^    def getCurrentSheet(self):$/;"	m	class:DataExplore
+getCurrentTable	pandastable/app.py	/^    def getCurrentTable(self):$/;"	m	class:DataExplore
+getData	pandastable/app.py	/^    def getData(self, name):$/;"	m	class:DataExplore
+getDictfromTkVars	pandastable/dialogs.py	/^def getDictfromTkVars(opts, tkvars, widgets):$/;"	f
+getFonts	pandastable/core.py	/^    def getFonts(self):$/;"	m	class:Table
+getFonts	pandastable/util.py	/^def getFonts():$/;"	f
+getGeometry	pandastable/core.py	/^    def getGeometry(self, frame):$/;"	m	class:Table
+getIndex	pandastable/dialogs.py	/^    def getIndex(self, item):$/;"	m	class:EasyListbox
+getIrisData	pandastable/data.py	/^    def getIrisData(self):$/;"	m	class:TableModel
+getModel	pandastable/stats.py	/^    def getModel(self, formula, data, est='ols'):$/;"	m	class:StatsViewer
+getParentGeometry	pandastable/dialogs.py	/^def getParentGeometry(parent):$/;"	f
+getPlotData	pandastable/core.py	/^    def getPlotData(self):$/;"	m	class:Table
+getRecordAtRow	pandastable/data.py	/^    def getRecordAtRow(self, rowIndex):$/;"	m	class:TableModel
+getResults	pandastable/dialogs.py	/^    def getResults(self, null=None):$/;"	m	class:MultipleValDialog
+getRowCount	pandastable/data.py	/^    def getRowCount(self):$/;"	m	class:TableModel
+getRowPosition	pandastable/core.py	/^    def getRowPosition(self, y):$/;"	m	class:Table
+getSampleData	pandastable/data.py	/^    def getSampleData(self, rows=400, cols=5):$/;"	m	class:TableModel
+getScale	pandastable/core.py	/^    def getScale(self):$/;"	m	class:Table
+getSelectedColumn	pandastable/core.py	/^    def getSelectedColumn(self):$/;"	m	class:Table
+getSelectedDataFrame	pandastable/core.py	/^    def getSelectedDataFrame(self):$/;"	m	class:Table
+getSelectedIndex	pandastable/dialogs.py	/^    def getSelectedIndex(self):$/;"	m	class:EasyListbox
+getSelectedItem	pandastable/dialogs.py	/^    def getSelectedItem(self):$/;"	m	class:EasyListbox
+getSelectedRow	pandastable/core.py	/^    def getSelectedRow(self):$/;"	m	class:Table
+getSelectionValues	pandastable/core.py	/^    def getSelectionValues(self):$/;"	m	class:Table
+getStackedData	pandastable/app.py	/^    def getStackedData(self):$/;"	m	class:DataExplore
+getStackedData	pandastable/data.py	/^    def getStackedData(self):$/;"	m	class:TableModel
+getTextLength	pandastable/util.py	/^def getTextLength(text, w, font=None):$/;"	f
+getValueAt	pandastable/data.py	/^    def getValueAt(self, rowindex, colindex):$/;"	m	class:TableModel
+getView	pandastable/plotting.py	/^    def getView(self):$/;"	m	class:PlotViewer
+getVisibleCols	pandastable/core.py	/^    def getVisibleCols(self, x1, x2):$/;"	m	class:Table
+getVisibleRegion	pandastable/core.py	/^    def getVisibleRegion(self):$/;"	m	class:Table
+getVisibleRows	pandastable/core.py	/^    def getVisibleRows(self, y1, y2):$/;"	m	class:Table
+get_col_clicked	pandastable/core.py	/^    def get_col_clicked(self,event):$/;"	m	class:Table
+get_dirs	pandastable/prefs.py	/^    def get_dirs(self):$/;"	m	class:Preferences
+get_plugins_classes	pandastable/plugin.py	/^def get_plugins_classes(capability):$/;"	f
+get_plugins_instances	pandastable/plugin.py	/^def get_plugins_instances(capability):$/;"	f
+get_row_clicked	pandastable/core.py	/^    def get_row_clicked(self, event):$/;"	m	class:Table
+getaColor	pandastable/core.py	/^    def getaColor(self, oldcolor):$/;"	m	class:Table
+getlongestEntry	pandastable/data.py	/^    def getlongestEntry(self, colindex):$/;"	m	class:TableModel
+gotonextCell	pandastable/core.py	/^    def gotonextCell(self):$/;"	m	class:Table
+gotonextRow	pandastable/core.py	/^    def gotonextRow(self):$/;"	m	class:Table
+gotoprevRow	pandastable/core.py	/^    def gotoprevRow(self):$/;"	m	class:Table
+groupby	pandastable/core.py	/^    def groupby(self, colindex):$/;"	m	class:Table
+groupby	pandastable/data.py	/^    def groupby(self, cols):$/;"	m	class:TableModel
+guessFormula	pandastable/stats.py	/^    def guessFormula(self):$/;"	m	class:StatsViewer
+gui_methods	pandastable/plugins/rename.py	/^    gui_methods = {}$/;"	v	class:BatchRenamePlugin
+gui_methods	pandastable/plugins/seabornplots.py	/^    gui_methods = {}$/;"	v	class:SeabornPlugin
+handleCellEntry	pandastable/core.py	/^    def handleCellEntry(self, row, col):$/;"	m	class:Table
+handle_arrow_keys	pandastable/core.py	/^    def handle_arrow_keys(self, event):$/;"	m	class:Table
+handle_double_click	pandastable/core.py	/^    def handle_double_click(self, event):$/;"	m	class:Table
+handle_double_click	pandastable/headers.py	/^    def handle_double_click(self, event):$/;"	m	class:ColumnHeader
+handle_left_click	pandastable/core.py	/^    def handle_left_click(self, event):$/;"	m	class:Table
+handle_left_click	pandastable/headers.py	/^    def handle_left_click(self, event):$/;"	m	class:IndexHeader
+handle_left_click	pandastable/headers.py	/^    def handle_left_click(self, event):$/;"	m	class:RowHeader
+handle_left_click	pandastable/headers.py	/^    def handle_left_click(self,event):$/;"	m	class:ColumnHeader
+handle_left_ctrl_click	pandastable/core.py	/^    def handle_left_ctrl_click(self, event):$/;"	m	class:Table
+handle_left_ctrl_click	pandastable/headers.py	/^    def handle_left_ctrl_click(self, event):$/;"	m	class:ColumnHeader
+handle_left_ctrl_click	pandastable/headers.py	/^    def handle_left_ctrl_click(self, event):$/;"	m	class:RowHeader
+handle_left_release	pandastable/core.py	/^    def handle_left_release(self,event):$/;"	m	class:Table
+handle_left_release	pandastable/headers.py	/^    def handle_left_release(self,event):$/;"	m	class:ColumnHeader
+handle_left_release	pandastable/headers.py	/^    def handle_left_release(self,event):$/;"	m	class:RowHeader
+handle_left_shift_click	pandastable/core.py	/^    def handle_left_shift_click(self, event):$/;"	m	class:Table
+handle_left_shift_click	pandastable/headers.py	/^    def handle_left_shift_click(self, event):$/;"	m	class:ColumnHeader
+handle_left_shift_click	pandastable/headers.py	/^    def handle_left_shift_click(self, event):$/;"	m	class:RowHeader
+handle_mouse_drag	pandastable/core.py	/^    def handle_mouse_drag(self, event):$/;"	m	class:Table
+handle_mouse_drag	pandastable/headers.py	/^    def handle_mouse_drag(self, event):$/;"	m	class:ColumnHeader
+handle_mouse_drag	pandastable/headers.py	/^    def handle_mouse_drag(self, event):$/;"	m	class:RowHeader
+handle_mouse_move	pandastable/headers.py	/^    def handle_mouse_move(self, event):$/;"	m	class:ColumnHeader
+handle_right_click	pandastable/core.py	/^    def handle_right_click(self, event):$/;"	m	class:Table
+handle_right_click	pandastable/headers.py	/^    def handle_right_click(self, event):$/;"	m	class:ColumnHeader
+handle_right_click	pandastable/headers.py	/^    def handle_right_click(self, event):$/;"	m	class:RowHeader
+handle_right_release	pandastable/headers.py	/^    def handle_right_release(self, event):$/;"	m	class:ColumnHeader
+heatmap	pandastable/plotting.py	/^    def heatmap(self, df, ax, kwds):$/;"	m	class:PlotViewer
+help	pandastable/dialogs.py	/^    def help(self):$/;"	m	class:AggregateDialog
+help	pandastable/dialogs.py	/^    def help(self):$/;"	m	class:CombineDialog
+hide	pandastable/plotting.py	/^    def hide(self):$/;"	m	class:PlotViewer
+hidePlot	pandastable/app.py	/^    def hidePlot(self):$/;"	m	class:DataExplore
+hidePlot	pandastable/core.py	/^    def hidePlot(self):$/;"	m	class:Table
+hidetip	pandastable/dialogs.py	/^    def hidetip(self):$/;"	m	class:ToolTip
+historyBack	pandastable/plugins/ipythonview.py	/^    def historyBack(self):$/;"	m	class:IterableIPShell
+historyForward	pandastable/plugins/ipythonview.py	/^    def historyForward(self):$/;"	m	class:IterableIPShell
+home	doc/source/conf.py	/^home = os.path.expanduser("~")$/;"	v
+home	setup.py	/^home=os.path.expanduser('~')$/;"	v
+html_logo	doc/source/conf.py	/^html_logo = '..\/..\/img\/dataexplore.ico'$/;"	v
+html_static_path	doc/source/conf.py	/^html_static_path = ['_static']$/;"	v
+html_theme	doc/source/conf.py	/^html_theme = 'default'$/;"	v
+htmlhelp_basename	doc/source/conf.py	/^htmlhelp_basename = 'pandastabledoc'$/;"	v
+icon	freeze.py	/^                          icon="img\/dataexplore.ico")]$/;"	v
+importCSV	pandastable/core.py	/^    def importCSV(self, filename=None, dialog=False, **kwargs):$/;"	m	class:Table
+importcsv	pandastable/images.py	/^def importcsv():$/;"	f
+includefiles	freeze.py	/^includefiles = ["pandastable\/dataexplore.gif","pandastable\/datasets",$/;"	v
+includes	freeze.py	/^includes = ["pandastable"]#,"scipy.integrate.vode","scipy.integrate.lsoda","scipy.linalg"]$/;"	v
+init_plugin_system	pandastable/plugin.py	/^def init_plugin_system(folders):$/;"	f
+initialiseFields	pandastable/data.py	/^    def initialiseFields(self):$/;"	m	class:TableModel
+installPlugin	pandastable/app.py	/^    def installPlugin(self):$/;"	m	class:DataExplore
+isEditable	pandastable/plugins/ipythonview.py	/^    def isEditable(self):$/;"	m	class:TkConsoleView
+isInsideTable	pandastable/core.py	/^    def isInsideTable(self,x,y):$/;"	m	class:Table
+key_press_event	pandastable/handlers.py	/^    def key_press_event(self, event):$/;"	m	class:DragHandler
+keywords	pandastable/data.py	/^    keywords = {'colors':'colors'}$/;"	v	class:TableModel
+keywords	setup.py	/^    keywords = ['tkinter', 'ttk', 'spreadsheet', 'table', 'pandas', 'data analysis'],$/;"	v
+kinds	pandastable/plotting.py	/^    kinds = ['line', 'scatter', 'bar', 'barh', 'pie', 'histogram', 'boxplot',$/;"	v	class:MPLBaseOptions
+kinds	pandastable/plotting.py	/^    kinds = ['scatter', 'bar', 'contour', 'wireframe', 'surface']$/;"	v	class:MPL3DOptions
+latex_documents	doc/source/conf.py	/^latex_documents = [$/;"	v
+latex_elements	doc/source/conf.py	/^latex_elements = {$/;"	v
+leave	pandastable/dialogs.py	/^        def leave(event):$/;"	f	function:ToolTip.createToolTip
+leave	pandastable/headers.py	/^    def leave(self, event):$/;"	m	class:ColumnHeader
+license	setup.py	/^    license='GPL v3',$/;"	v
+linestyles	pandastable/plotting.py	/^    linestyles = ['-','--','-.',':','steps']$/;"	v	class:MPLBaseOptions
+load	pandastable/core.py	/^    def load(self, filename=None):$/;"	m	class:Table
+load	pandastable/data.py	/^    def load(self, filename, filetype=None):$/;"	m	class:TableModel
+loadExcel	pandastable/core.py	/^    def loadExcel(self, filename=None):$/;"	m	class:Table
+loadMeta	pandastable/app.py	/^    def loadMeta(self, table, meta):$/;"	m	class:DataExplore
+loadPlugin	pandastable/app.py	/^    def loadPlugin(self, plugin):$/;"	m	class:DataExplore
+loadPrefs	pandastable/core.py	/^    def loadPrefs(self, prefs=None):$/;"	m	class:Table
+loadProject	pandastable/app.py	/^    def loadProject(self, filename=None, asksave=False):$/;"	m	class:DataExplore
+load_dataframe	pandastable/app.py	/^    def load_dataframe(self, df, name=None, select=False):$/;"	m	class:DataExplore
+load_msgpack	pandastable/app.py	/^    def load_msgpack(self, filename):$/;"	m	class:DataExplore
+load_pickle	pandastable/app.py	/^    def load_pickle(self, filename):$/;"	m	class:DataExplore
+load_plugins	pandastable/plugin.py	/^def load_plugins(plugins):$/;"	f
+load_prefs	pandastable/prefs.py	/^    def load_prefs(self,filename):$/;"	m	class:Preferences
+main	main.py	/^def main():$/;"	f
+main	pandastable/app.py	/^def main():$/;"	f
+main	pandastable/plugin.py	/^    def main(self, parent):$/;"	m	class:Plugin
+main	pandastable/plugins/example.py	/^    def main(self, parent):$/;"	m	class:ExamplePlugin
+main	pandastable/plugins/ipythonview.py	/^    def main(self, parent):$/;"	m	class:IPythonPlugin
+main	pandastable/plugins/rename.py	/^    def main(self, parent):$/;"	m	class:BatchRenamePlugin
+main	pandastable/plugins/rename.py	/^def main():$/;"	f
+main	pandastable/plugins/seabornplots.py	/^    def main(self, parent):$/;"	m	class:SeabornPlugin
+man_pages	doc/source/conf.py	/^man_pages = [$/;"	v
+markers	pandastable/plotting.py	/^    markers = ['','o','.','^','v','>','<','s','+','x','p','d','h','*']$/;"	v	class:MPLBaseOptions
+master_doc	doc/source/conf.py	/^master_doc = 'index'$/;"	v
+melt	pandastable/core.py	/^    def melt(self):$/;"	m	class:Table
+melt	pandastable/images.py	/^def melt():$/;"	f
+menuentry	pandastable/plugins/example.py	/^    menuentry = 'Example Plugin'$/;"	v	class:ExamplePlugin
+menuentry	pandastable/plugins/ipythonview.py	/^    menuentry = 'IPython Console'$/;"	v	class:IPythonPlugin
+menuentry	pandastable/plugins/rename.py	/^    menuentry = 'Batch File Rename'$/;"	v	class:BatchRenamePlugin
+menuentry	pandastable/plugins/seabornplots.py	/^    menuentry = 'Factor Plots'$/;"	v	class:SeabornPlugin
+merge	pandastable/core.py	/^    def merge(self, table):$/;"	m	class:Table
+merge	pandastable/images.py	/^def merge():$/;"	f
+meshData	pandastable/plotting.py	/^    def meshData(self, x,y,z):$/;"	m	class:PlotViewer
+modulepath	doc/source/conf.py	/^modulepath = os.path.join(home,'gitprojects\/pandastable')$/;"	v
+mouse_wheel	pandastable/core.py	/^    def mouse_wheel(self, event):$/;"	m	class:Table
+moveColumn	pandastable/data.py	/^    def moveColumn(self, oldindex, newindex):$/;"	m	class:TableModel
+movetoSelectedRow	pandastable/core.py	/^    def movetoSelectedRow(self, row=None, recname=None):$/;"	m	class:Table
+name	setup.py	/^    name = 'pandastable',$/;"	v
+new	pandastable/app.py	/^                def new():$/;"	f	function:DataExplore.updatePluginMenu.func
+new	pandastable/core.py	/^    def new(self):$/;"	m	class:Table
+newProject	pandastable/app.py	/^    def newProject(self, data=None, df=None):$/;"	m	class:DataExplore
+new_proj	pandastable/images.py	/^def new_proj():$/;"	f
+next	pandastable/images.py	/^def next():$/;"	f
+onClear	pandastable/dialogs.py	/^    def onClear(self):$/;"	m	class:SimpleEditor
+onFind	pandastable/dialogs.py	/^    def onFind(self):$/;"	m	class:SimpleEditor
+onSave	pandastable/dialogs.py	/^    def onSave(self):$/;"	m	class:SimpleEditor
+on_pick_event	pandastable/handlers.py	/^    def on_pick_event(self, event):$/;"	m	class:DragHandler
+on_release_event	pandastable/handlers.py	/^    def on_release_event(self, event):$/;"	m	class:DragHandler
+online_documentation	pandastable/app.py	/^    def online_documentation(self,event=None):$/;"	m	class:DataExplore
+onpick	pandastable/plotting.py	/^        def onpick(event):$/;"	f	function:PlotViewer.setupGUI
+open_proj	pandastable/images.py	/^def open_proj():$/;"	f
+options	freeze.py	/^    options = {"build_exe": build_exe_options},$/;"	v
+opts	pandastable/preferences.py	/^    opts = {'layout':{'type':'checkbutton','default':'horizontal'},$/;"	v	class:App
+p	pandastable/preferences.py	/^    p = Prefs('.dataexplore')$/;"	v	class:App
+pack	pandastable/dialogs.py	/^    def pack(self, **kw):$/;"	m	class:AutoScrollbar
+package_data	setup.py	/^    package_data={'pandastable': ['dataexplore.gif','datasets\/*.mpk',$/;"	v
+packages	setup.py	/^    packages = ['pandastable'],$/;"	v
+parseConfig	pandastable/preferences.py	/^    def parseConfig(self, conffile=None):$/;"	m	class:Prefs
+parsefolder	pandastable/plugin.py	/^def parsefolder(folder):$/;"	f
+paste	pandastable/core.py	/^    def paste(self, event=None):$/;"	m	class:Table
+paste	pandastable/images.py	/^def paste():$/;"	f
+pasteTable	pandastable/app.py	/^    def pasteTable(self, subtable=False):$/;"	m	class:DataExplore
+pasteTable	pandastable/core.py	/^    def pasteTable(self, event=None):$/;"	m	class:Table
+pdfReport	pandastable/app.py	/^    def pdfReport(self):$/;"	m	class:DataExplore
+pivot	pandastable/core.py	/^    def pivot(self):$/;"	m	class:Table
+pivot	pandastable/images.py	/^def pivot():$/;"	f
+place	pandastable/dialogs.py	/^    def place(self, **kw):$/;"	m	class:AutoScrollbar
+placeColumn	pandastable/core.py	/^    def placeColumn(self, col1, col2):$/;"	m	class:Table
+plot	pandastable/images.py	/^def plot():$/;"	f
+plot2D	pandastable/plotting.py	/^    def plot2D(self):$/;"	m	class:PlotViewer
+plot3D	pandastable/core.py	/^    def plot3D(self):$/;"	m	class:Table
+plot3D	pandastable/plotting.py	/^    def plot3D(self):$/;"	m	class:PlotViewer
+plotCurrent	pandastable/plotting.py	/^    def plotCurrent(self):$/;"	m	class:PlotViewer
+plotLogit	pandastable/stats.py	/^    def plotLogit(self, fit, indvar, ax, **kwds):$/;"	m	class:StatsViewer
+plotPrediction	pandastable/stats.py	/^    def plotPrediction(self, fit, ax):$/;"	m	class:StatsViewer
+plotRegression	pandastable/stats.py	/^    def plotRegression(self, fit, indvar, ax, **kwds):$/;"	m	class:StatsViewer
+plotSelected	pandastable/core.py	/^    def plotSelected(self):$/;"	m	class:Table
+plot_clear	pandastable/images.py	/^def plot_clear():$/;"	f
+plotprefs	pandastable/images.py	/^def plotprefs():$/;"	f
+pluginrow	pandastable/plugins/example.py	/^    pluginrow = 6 #row to add plugin frame beneath table$/;"	v	class:ExamplePlugin
+popupFocusOut	pandastable/core.py	/^        def popupFocusOut(event):$/;"	f	function:Table.popupMenu
+popupFocusOut	pandastable/headers.py	/^        def popupFocusOut(event):$/;"	f	function:ColumnHeader.popupMenu
+popupFocusOut	pandastable/headers.py	/^        def popupFocusOut(event):$/;"	f	function:RowHeader.popupMenu
+popupMenu	pandastable/core.py	/^    def popupMenu(self, event, rows=None, cols=None, outside=None):$/;"	m	class:Table
+popupMenu	pandastable/headers.py	/^    def popupMenu(self, event):$/;"	m	class:ColumnHeader
+popupMenu	pandastable/headers.py	/^    def popupMenu(self, event, rows=None, cols=None, outside=None):$/;"	m	class:RowHeader
+preferencesDialog	pandastable/app.py	/^    def preferencesDialog(self):$/;"	m	class:DataExplore
+prefs	pandastable/images.py	/^def prefs():$/;"	f
+prev	pandastable/images.py	/^def prev():$/;"	f
+processBackSpacePress	pandastable/plugins/ipythonview.py	/^    def processBackSpacePress(self,event):$/;"	m	class:TkConsoleView
+processDownPress	pandastable/plugins/ipythonview.py	/^    def processDownPress(self,event):$/;"	m	class:TkConsoleView
+processEnterPress	pandastable/plugins/ipythonview.py	/^    def processEnterPress(self,event):$/;"	m	class:TkConsoleView
+processKeyPress	pandastable/plugins/ipythonview.py	/^    def processKeyPress(self,event):$/;"	m	class:TkConsoleView
+processTabPress	pandastable/plugins/ipythonview.py	/^    def processTabPress(self,event):$/;"	m	class:TkConsoleView
+processUpPress	pandastable/plugins/ipythonview.py	/^    def processUpPress(self,event):$/;"	m	class:TkConsoleView
+progressDialog	pandastable/app.py	/^    def progressDialog(self):$/;"	m	class:DataExplore
+project	doc/source/conf.py	/^project = u'pandastable'$/;"	v
+pygments_style	doc/source/conf.py	/^pygments_style = 'sphinx'$/;"	v
+query	pandastable/core.py	/^    def query(self, evt=None):$/;"	m	class:Table
+query	pandastable/data.py	/^    def query(self):$/;"	m	class:TableModel
+queryBar	pandastable/core.py	/^    def queryBar(self, evt=None):$/;"	m	class:Table
+quit	pandastable/app.py	/^    def quit(self):$/;"	m	class:DataExplore
+quit	pandastable/dialogs.py	/^    def quit(self):$/;"	m	class:AggregateDialog
+quit	pandastable/dialogs.py	/^    def quit(self):$/;"	m	class:CombineDialog
+quit	pandastable/dialogs.py	/^    def quit(self):$/;"	m	class:ImportDialog
+quit	pandastable/plotting.py	/^    def quit(self):$/;"	m	class:PlotViewer
+quit	pandastable/plugin.py	/^    def quit(self, evt=None):$/;"	m	class:Plugin
+quit	pandastable/plugins/example.py	/^    def quit(self, evt=None):$/;"	m	class:ExamplePlugin
+quit	pandastable/plugins/seabornplots.py	/^    def quit(self, evt=None):$/;"	m	class:SeabornPlugin
+quit	pandastable/stats.py	/^    def quit(self):$/;"	m	class:StatsViewer
+quit	pandastable/tests.py	/^    def quit(self):$/;"	m	class:TableTests
+raw_input	pandastable/plugins/ipythonview.py	/^    def raw_input(self, prompt=''):$/;"	m	class:IPythonView
+recalculateFunctions	pandastable/core.py	/^    def recalculateFunctions(self, omit=None):$/;"	m	class:Table
+redraw	pandastable/core.py	/^    def redraw(self, event=None, callback=None):$/;"	m	class:Table
+redraw	pandastable/headers.py	/^    def redraw(self):$/;"	m	class:ColumnHeader
+redraw	pandastable/headers.py	/^    def redraw(self, align='w'):$/;"	m	class:IndexHeader
+redraw	pandastable/headers.py	/^    def redraw(self, align='w', showkeys=False):$/;"	m	class:RowHeader
+redraw	pandastable/plotting.py	/^    def redraw(self):$/;"	m	class:AnnotationOptions
+redrawCell	pandastable/core.py	/^    def redrawCell(self, row=None, col=None, recname=None, colname=None):$/;"	m	class:Table
+redrawVisible	pandastable/core.py	/^    def redrawVisible(self, event=None, callback=None):$/;"	m	class:Table
+refresh	pandastable/images.py	/^def refresh():$/;"	f
+refresh	pandastable/plugins/rename.py	/^    def refresh(self):$/;"	m	class:BatchRenamePlugin
+refreshLayout	pandastable/plotting.py	/^    def refreshLayout(self):$/;"	m	class:PlotViewer
+release	doc/source/conf.py	/^release = '0.5.0'$/;"	v
+remove	pandastable/core.py	/^    def remove(self):$/;"	m	class:Table
+removeSubplot	pandastable/plotting.py	/^    def removeSubplot(self):$/;"	m	class:PlotViewer
+renameColumn	pandastable/headers.py	/^    def renameColumn(self):$/;"	m	class:ColumnHeader
+renameIndex	pandastable/core.py	/^    def renameIndex(self, ):$/;"	m	class:Table
+renameSheet	pandastable/app.py	/^    def renameSheet(self):$/;"	m	class:DataExplore
+replot	pandastable/plotting.py	/^    def replot(self):$/;"	m	class:PlotViewer
+requires	pandastable/plugin.py	/^    requires = []$/;"	v	class:Plugin
+requires	pandastable/plugins/example.py	/^    requires = ['']$/;"	v	class:ExamplePlugin
+requires	pandastable/plugins/ipythonview.py	/^    requires = ['']$/;"	v	class:IPythonPlugin
+requires	pandastable/plugins/rename.py	/^    requires = ['']$/;"	v	class:BatchRenamePlugin
+requires	pandastable/plugins/seabornplots.py	/^    requires = ['']$/;"	v	class:SeabornPlugin
+reset	pandastable/core.py	/^        def reset():$/;"	f	function:Table.evalBar
+reset	pandastable/core.py	/^        def reset():$/;"	f	function:Table.functionsBar
+reset	pandastable/core.py	/^        def reset():$/;"	f	function:Table.queryBar
+resetIndex	pandastable/core.py	/^    def resetIndex(self):$/;"	m	class:Table
+resetIndex	pandastable/data.py	/^    def resetIndex(self):$/;"	m	class:TableModel
+resizeColumn	pandastable/core.py	/^    def resizeColumn(self, col, width):$/;"	m	class:Table
+root	pandastable/plugins/ipythonview.py	/^    root = Tk()$/;"	v	class:IPythonPlugin
+run	pandastable/plotting.py	/^        def run(i):$/;"	f	function:animator.animate
+run	pandastable/plotting.py	/^    def run(data, ax):$/;"	m	class:animator
+run	pandastable/tests.py	/^    def run(self):$/;"	m	class:clickThread
+s	pandastable/plugins/ipythonview.py	/^    s = IPythonView(root)$/;"	v	class:IPythonPlugin
+sampleData	pandastable/app.py	/^    def sampleData(self):$/;"	m	class:DataExplore
+save	pandastable/app.py	/^        def save():$/;"	f	function:DataExplore.preferencesDialog
+save	pandastable/core.py	/^    def save(self):$/;"	m	class:Table
+save	pandastable/data.py	/^    def save(self, filename):$/;"	m	class:TableModel
+saveAs	pandastable/core.py	/^    def saveAs(self, filename=None):$/;"	m	class:Table
+saveMeta	pandastable/app.py	/^    def saveMeta(self, table):$/;"	m	class:DataExplore
+savePlot	pandastable/plotting.py	/^    def savePlot(self):$/;"	m	class:PlotViewer
+savePrefs	pandastable/core.py	/^    def savePrefs(self):$/;"	m	class:Table
+saveProject	pandastable/app.py	/^    def saveProject(self, filename=None):$/;"	m	class:DataExplore
+save_prefs	pandastable/prefs.py	/^    def save_prefs(self):$/;"	m	class:Preferences
+save_proj	pandastable/images.py	/^def save_proj():$/;"	f
+saveasProject	pandastable/app.py	/^    def saveasProject(self):$/;"	m	class:DataExplore
+scatter	pandastable/plotting.py	/^    def scatter(self, df, ax, alpha=0.8, marker='o', **kwds):$/;"	m	class:PlotViewer
+scatter3D	pandastable/plotting.py	/^    def scatter3D(self, data, ax, kwds):$/;"	m	class:PlotViewer
+search	pandastable/images.py	/^def search():$/;"	f
+selectAll	pandastable/core.py	/^    def selectAll(self, evt=None):$/;"	m	class:Table
+selectNone	pandastable/core.py	/^    def selectNone(self):$/;"	m	class:Table
+set	pandastable/dialogs.py	/^    def set(self, lo, hi):$/;"	m	class:AutoScrollbar
+set	pandastable/prefs.py	/^    def set(self,key,value):$/;"	m	class:Preferences
+setAttributes	pandastable/util.py	/^def setAttributes(obj, data):$/;"	f
+setAttributesfromConfigParser	pandastable/preferences.py	/^def setAttributesfromConfigParser(obj, cp):$/;"	f
+setAxisLabels	pandastable/plotting.py	/^    def setAxisLabels(self, ax, kwds):$/;"	m	class:PlotViewer
+setColPositions	pandastable/core.py	/^    def setColPositions(self):$/;"	m	class:Table
+setColumnType	pandastable/core.py	/^    def setColumnType(self):$/;"	m	class:Table
+setConfigDir	pandastable/app.py	/^    def setConfigDir(self):$/;"	m	class:DataExplore
+setDefaultStyle	pandastable/plugins/seabornplots.py	/^    def setDefaultStyle(self, fontscale=1.2, font='monospace'):$/;"	m	class:SeabornPlugin
+setDefaults	pandastable/headers.py	/^    def setDefaults(self):$/;"	m	class:ColumnHeader
+setFigureOptions	pandastable/plotting.py	/^    def setFigureOptions(self, axs, kwds):$/;"	m	class:PlotViewer
+setFont	pandastable/plugins/ipythonview.py	/^    def setFont(self):$/;"	m	class:TkConsoleView
+setFontSize	pandastable/core.py	/^    def setFontSize(self):$/;"	m	class:Table
+setGeometry	pandastable/app.py	/^    def setGeometry(self):$/;"	m	class:DataExplore
+setMode	pandastable/plotting.py	/^    def setMode(self, evt=None):$/;"	m	class:PlotViewer
+setRowHeight	pandastable/core.py	/^    def setRowHeight(self, h):$/;"	m	class:Table
+setSelectedCells	pandastable/core.py	/^    def setSelectedCells(self, startrow, endrow, startcol, endcol):$/;"	m	class:Table
+setSelectedCol	pandastable/core.py	/^    def setSelectedCol(self, col):$/;"	m	class:Table
+setSelectedIndex	pandastable/dialogs.py	/^    def setSelectedIndex(self, index):$/;"	m	class:EasyListbox
+setSelectedRow	pandastable/core.py	/^    def setSelectedRow(self, row):$/;"	m	class:Table
+setSubplotTitle	pandastable/plotting.py	/^    def setSubplotTitle(self):$/;"	m	class:PlotViewer
+setUp	pandastable/tests.py	/^    def setUp(self):$/;"	m	class:DataExploreTests
+setUp	pandastable/tests.py	/^    def setUp(self):$/;"	m	class:TableTests
+setValueAt	pandastable/data.py	/^    def setValueAt(self, value, rowindex, colindex):$/;"	m	class:TableModel
+setWidth	pandastable/headers.py	/^    def setWidth(self, w):$/;"	m	class:RowHeader
+set_defaults	pandastable/core.py	/^    def set_defaults(self):$/;"	m	class:Table
+set_xviews	pandastable/core.py	/^    def set_xviews(self,*args):$/;"	m	class:Table
+set_yviews	pandastable/core.py	/^    def set_yviews(self,*args):$/;"	m	class:Table
+setcellbackgr	pandastable/core.py	/^    def setcellbackgr(self):$/;"	m	class:Table
+setgrid_color	pandastable/core.py	/^    def setgrid_color(self):$/;"	m	class:Table
+setindex	pandastable/core.py	/^    def setindex(self):$/;"	m	class:Table
+setindex	pandastable/data.py	/^    def setindex(self, colindex):$/;"	m	class:TableModel
+setrowselectedcolor	pandastable/core.py	/^    def setrowselectedcolor(self):$/;"	m	class:Table
+setup	pandastable/data.py	/^    def setup(self, dataframe, rows=20, columns=5):$/;"	m	class:TableModel
+setupGUI	pandastable/app.py	/^    def setupGUI(self):$/;"	m	class:DataExplore
+setupGUI	pandastable/plotting.py	/^    def setupGUI(self):$/;"	m	class:PlotViewer
+setupGUI	pandastable/stats.py	/^    def setupGUI(self):$/;"	m	class:StatsViewer
+shell	pandastable/plugins/ipythonview.py	/^    def shell(self, cmd,verbose=0,debug=0,header=''):$/;"	m	class:IterableIPShell
+shortcutDir	freeze.py	/^                          shortcutDir="DesktopFolder",$/;"	v
+shortcutName	freeze.py	/^                          shortcutName="DataExplore",$/;"	v
+show	pandastable/core.py	/^    def show(self, callback=None):$/;"	m	class:Table
+show	pandastable/plotting.py	/^    def show(self):$/;"	m	class:PlotViewer
+showAll	pandastable/core.py	/^    def showAll(self):$/;"	m	class:Table
+showBanner	pandastable/plugins/ipythonview.py	/^    def showBanner(self,banner):$/;"	m	class:TkConsoleView
+showDialog	pandastable/plotting.py	/^    def showDialog(self, parent, layout='horizontal'):$/;"	m	class:AnnotationOptions
+showDialog	pandastable/plotting.py	/^    def showDialog(self, parent, layout='horizontal'):$/;"	m	class:PlotLayoutOptions
+showDialog	pandastable/plotting.py	/^    def showDialog(self, parent, layout='horizontal'):$/;"	m	class:TkOptions
+showIndex	pandastable/core.py	/^    def showIndex(self):$/;"	m	class:Table
+showInfo	pandastable/core.py	/^    def showInfo(self):$/;"	m	class:Table
+showPlot	pandastable/app.py	/^    def showPlot(self):$/;"	m	class:DataExplore
+showPlot	pandastable/core.py	/^    def showPlot(self):$/;"	m	class:Table
+showPlot	pandastable/stats.py	/^    def showPlot(self):$/;"	m	class:StatsViewer
+showPlotViewer	pandastable/core.py	/^    def showPlotViewer(self, parent=None, layout='horizontal'):$/;"	m	class:Table
+showPrefs	pandastable/core.py	/^    def showPrefs(self, prefs=None):$/;"	m	class:Table
+showPrompt	pandastable/plugins/ipythonview.py	/^    def showPrompt(self, prompt):$/;"	m	class:TkConsoleView
+showReturned	pandastable/plugins/ipythonview.py	/^    def showReturned(self, text):$/;"	m	class:TkConsoleView
+showText	pandastable/dialogs.py	/^    def showText(self):$/;"	m	class:ImportDialog
+showWarning	pandastable/plotting.py	/^    def showWarning(self, s='plot error', ax=None):$/;"	m	class:PlotViewer
+showWarning	pandastable/plugins/seabornplots.py	/^    def showWarning(self, s='plot error'):$/;"	m	class:SeabornPlugin
+show_progressbar	pandastable/core.py	/^    def show_progressbar(self,message=None):$/;"	m	class:Table
+showasText	pandastable/core.py	/^    def showasText(self):$/;"	m	class:Table
+showtip	pandastable/dialogs.py	/^    def showtip(self, text):$/;"	m	class:ToolTip
+sortColumnIndex	pandastable/core.py	/^    def sortColumnIndex(self):$/;"	m	class:Table
+sortTable	pandastable/core.py	/^    def sortTable(self, columnIndex=None, ascending=1, index=False):$/;"	m	class:Table
+source_suffix	doc/source/conf.py	/^source_suffix = '.rst'$/;"	v
+start	pandastable/images.py	/^def start():$/;"	f
+statsViewer	pandastable/core.py	/^    def statsViewer(self):$/;"	m	class:Table
+statusBar	pandastable/core.py	/^class statusBar(Frame):$/;"	c
+strip_non_ascii	pandastable/plugins/ipythonview.py	/^    def strip_non_ascii(self, string):$/;"	m	class:IPythonView
+subplotsWidget	pandastable/plotting.py	/^    def subplotsWidget(self):$/;"	m	class:PlotLayoutOptions
+summary	pandastable/stats.py	/^    def summary(self):$/;"	m	class:StatsViewer
+tableChanged	pandastable/core.py	/^    def tableChanged(self):$/;"	m	class:Table
+tableFromSelection	pandastable/core.py	/^    def tableFromSelection(self):$/;"	m	class:Table
+table_delete	pandastable/images.py	/^def table_delete():$/;"	f
+table_multiple	pandastable/images.py	/^def table_multiple():$/;"	f
+tableapp_logo	pandastable/images.py	/^def tableapp_logo():$/;"	f
+targetName	freeze.py	/^                          targetName='DataExplore.exe',$/;"	v
+templates_path	doc/source/conf.py	/^templates_path = ['_templates']$/;"	v
+testA	pandastable/tests.py	/^    def testA(self):$/;"	m	class:TableTests
+testB	pandastable/tests.py	/^    def testB(self):$/;"	m	class:TableTests
+testC	pandastable/tests.py	/^    def testC(self):$/;"	m	class:TableTests
+testD	pandastable/tests.py	/^    def testD(self):$/;"	m	class:TableTests
+texinfo_documents	doc/source/conf.py	/^texinfo_documents = [$/;"	v
+tilehorizontal	pandastable/images.py	/^def tilehorizontal():$/;"	f
+tilevertical	pandastable/images.py	/^def tilevertical():$/;"	f
+toggleIndex	pandastable/headers.py	/^    def toggleIndex(self):$/;"	m	class:RowHeader
+transpose	pandastable/core.py	/^    def transpose(self):$/;"	m	class:Table
+transpose	pandastable/data.py	/^    def transpose(self):$/;"	m	class:TableModel
+transpose	pandastable/images.py	/^def transpose():$/;"	f
+triggerListItemSelected	pandastable/dialogs.py	/^    def triggerListItemSelected(self, event):$/;"	m	class:EasyListbox
+update	pandastable/core.py	/^    def update(self):$/;"	m	class:statusBar
+update	pandastable/dialogs.py	/^    def update(self):$/;"	m	class:ImportDialog
+update	pandastable/plotting.py	/^    def update(self, df):$/;"	m	class:MPLBaseOptions
+update	pandastable/plugins/seabornplots.py	/^    def update(self, df):$/;"	m	class:SeabornPlugin
+updateAxesList	pandastable/plotting.py	/^    def updateAxesList(self):$/;"	m	class:PlotLayoutOptions
+updateData	pandastable/plotting.py	/^    def updateData(self):$/;"	m	class:PlotViewer
+updateData	pandastable/stats.py	/^    def updateData(self):$/;"	m	class:StatsViewer
+updateFromOptions	pandastable/plotting.py	/^    def updateFromOptions(self, kwds=None):$/;"	m	class:TkOptions
+updateFunctions	pandastable/core.py	/^    def updateFunctions(self):$/;"	m	class:Table
+updateModel	pandastable/core.py	/^    def updateModel(self, model):$/;"	m	class:Table
+updateNamespace	pandastable/plugins/ipythonview.py	/^    def updateNamespace(self, ns_dict):$/;"	m	class:IterableIPShell
+updatePlotsMenu	pandastable/app.py	/^    def updatePlotsMenu(self, clear=True):$/;"	m	class:DataExplore
+updatePluginMenu	pandastable/app.py	/^    def updatePluginMenu(self):$/;"	m	class:DataExplore
+url	setup.py	/^    url='https:\/\/github.com\/dmnfarrell\/pandastable',$/;"	v
+venn	pandastable/plotting.py	/^    def venn(self, data, ax, colormap=None, alpha=0.8):$/;"	m	class:PlotViewer
+version	doc/source/conf.py	/^version = '0.5'$/;"	v
+version	freeze.py	/^	version = "0.7.3",$/;"	v
+version	pandastable/plugins/ipythonview.py	/^    version = '0.1'$/;"	v	class:IPythonPlugin
+version	pandastable/plugins/rename.py	/^    version = '0.1'$/;"	v	class:BatchRenamePlugin
+version	pandastable/plugins/seabornplots.py	/^    version = '0.1'$/;"	v	class:SeabornPlugin
+version	setup.py	/^    version = '0.7.3',$/;"	v
+within	pandastable/headers.py	/^    def within(self, val, l, d):$/;"	m	class:ColumnHeader
+write	pandastable/plugins/ipythonview.py	/^    def write(self, text, editable=False):$/;"	m	class:TkConsoleView
+writeConfig	pandastable/preferences.py	/^    def writeConfig(self, filename=None):$/;"	m	class:Prefs
