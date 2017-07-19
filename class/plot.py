@@ -8,9 +8,13 @@ from Tkinter import *
 #from matplotlib.dates import DateFormater,MonthLocator,DayLoctor
 
 __metaclass__= type
-class plot(Frame):
+class kinter():
     def __init__(self):
-            Frame.__init__(self)
+        print 'hello I am kinter'
+
+class plot(kinter):
+    def __init__(self):
+            kinter.__init__(self)
             self.main = self.master
             print 'hello plot',self.main
             mpl.rcParams['font.family'] = 'sans-serif'                                                           
